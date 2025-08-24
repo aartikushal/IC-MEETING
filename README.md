@@ -24,8 +24,6 @@ The **Meeting Summary Bot** is an AI-powered assistant that helps teams automati
 ---
 
 ## 📊 Architecture Flow
-
-```mermaid
 flowchart TD
     A[User uploads transcript in Telegram] --> B[Telegram Bot]
     B --> C[n8n Webhook]
